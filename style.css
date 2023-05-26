@@ -46,11 +46,19 @@
     color: black;
     text-decoration: none;
     transition: all 0.5 linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
 }
 
 .link:hover {
     color: red;
     transform: scale(2.2);
+    -webkit-transform: scale(2.2);
+    -moz-transform: scale(2.2);
+    -ms-transform: scale(2.2);
+    -o-transform: scale(2.2);
 }
 
 /* hire end nav */
